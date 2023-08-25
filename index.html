@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Tool</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        
+        <style>
+            #header{
+                color: white;
+                /* position: absolute; */
+                float: inline-start;
+                font-size: 110px;
+                /* margin-left: 120px; */
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 0px;
+                text-shadow: 1px 1px 22px rgba(251,204,20,0.77);
+                /* transform: scale(30%); */
+            }
+            #tagline{
+                color:darkgray;
+                float: inherit;
+                /* position: absolute; */
+                font-size: 30px;
+                margin-top: 0%;
+                /* margin-left: 600px; */
+                text-align: center;
+            }
+            body{
+               
+                background-image: url(bg-home1.jpg);
+                background-color: rgb(0, 0, 0);
+                width: 100%;
+                height: 100vh;
+                background-position: top center;
+                background-size: cover;   
+                background-repeat: no-repeat; 
+                margin: auto;
+            }
+            #download-section{
+                position: relative;
+                float: right;
+                width: 30%;
+                align-items: end;
+                margin-top: 21%;
+                margin-right: 20px;
+                /* border: 3px solid rgba(255, 0, 0, 0.164); */
+                /* margin-left: 800px; */
+                padding: 2%;
+                padding-right: 0%;
+                padding-bottom: 1.5%;
+            }
+            #demo-section{
+                padding-left: 150px;
+                float: left;
+                /* width: 48%; */
+                /* font-size: 10px; */
+                margin-top: 25%;
+                margin-left: 0;
+                /* border: 3px solid red; */
+                
+            }
+            .stylebtns{
+                font-size: 20px;
+                margin-top: 3%;
+            }
+            #btn-1{
+                margin-left: 15px;
+            }
+            #btn-2{
+                margin-left: 30px;
+                padding-right: 20px;
+            }
+            #btn-3{
+                margin-left: 30px;
+                padding-right: 20px;
+            }
+            #demobtn{
+                font-size: 20px;
+                padding:10px 50px;
+                
+            }
+            /* #demobtn:hover{
+                background-color: rgba(212, 35, 118, 0.712);
+                color: rgba(255, 255, 255, 0.836);
+            } */
+            .btn-funky-moon {
+                background: #A770EF;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                color: #fff;
+                border: 3px solid #eee;
+            }
+            .btn-pink-moon {
+                background: #ec008c;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #fc6767, #ec008c,#2b00ec);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #fc6767, #ec008c, #2b00ec); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                color: #fff;
+                /* border: 3px solid; */
+            }
+            #contact-section{
+                
+                margin-left: 82%;
+                margin-top: 1.5%;
+                float: right;
+                padding-right: 40px;
+                
+            }
+            #contact-section a{
+                color: rgba(255, 255, 255, 0.521);
+                font-size: 15px;
+            }
+            #contact-section a:hover{
+                color: rgba(255, 255, 255, 0.959);
+                font-size: 20px;
+                /* border: 1.5px rgba(41, 53, 54, 0.589) solid; */
+                text-decoration: none;
+                padding: 7px;
+            }
+           
+
+        </style>
+    </head>
+    <body>
+        <h1 id="header">Portfolio Generator</h1>
+        <h3 id="tagline"> - A Digital Resume</h3>
+        <div id="demo-section">
+
+            <a href="form-index.html" target="_blank" id="demobtn"  class="btn btn-pink-moon" role="button">
+                Continue
+            </a>
+        </div>
+        <div id="download-section">
+            <div style="color: rgba(255, 253, 249, 0.445); font-size: 20px; text-align: center;">Download Code:<br /></div>
+            <a href="download/style1.zip" target="_blank" class="btn btn-outline-danger stylebtns" id="btn-1" role="button">
+                Style 1
+            </a>
+            <a href="download/style2.zip" target="_blank" class="btn btn-outline-warning stylebtns" id="btn-2" role="button">
+                Style 2
+            </a>
+            <a href="download/style3.zip" target="_blank" class="btn btn-outline-primary stylebtns" id="btn-3" role="button">
+                Style 3
+            </a>
+        </div>
+        <div id="contact-section">
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </body>
+    
+</html>
